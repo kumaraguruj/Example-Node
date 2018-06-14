@@ -32,14 +32,14 @@ guru4ui/Example-Node:
     - sudo apt-get -y install nodejs
     - echo "-Installing npm-"
     # sudo apt-get -y install npm -g
-     - sudo apt-get install npm -g
+    - sudo apt-get install npm -g
 
     
 
   PostInstall:
     - echo "Begin PostInstall"
     - echo "alsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjadsalsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjadsalsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjadsalsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjadsalsdfjadslkfjadsklfjaklsdfjasldkfjadslkfjasdlkfjaksdlfjalsdkfjkdsfjkdfjkdjfkdjfkdjfladkjfaldskfjads"
-    - npm install
+    - npm install -g
 
   Env:
     - PORT: 3000
