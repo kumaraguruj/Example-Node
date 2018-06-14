@@ -31,7 +31,9 @@ guru4ui/Example-Node:
     - echo "-Installing nodejs-"
     - sudo apt-get -y install nodejs
     - echo "-Installing npm-"
-    - sudo apt-get -y install npm -g
+    # sudo apt-get -y install npm -g
+     - sudo apt-get install npm -g
+
     
 
   PostInstall:
